@@ -1,0 +1,22 @@
+# Team work
+- Nhánh chính
+  - Nhánh main: Phát hành sản phẩm
+  - Nhánh dev: Viết code phát triển sản phẩm
+- Quy định về cách làm việc:
+  - Đặt tên:
+    - Các chức năng: Đặt tên theo định dạng feat/ten_chuc_nang
+    - Kiểm thử: Đặt tên theo định dạng test/ten_chuc_nang
+    - Sửa lỗi: Đặt tên theo định dạng fix/ten_chuc_nang
+  - Phân chia quyền:
+    - Repo Owner: 
+      - Tiếp nhận PR và merge các commit của thành viên vào nhánh dev
+      - Giao issue cho các thành viên trong nhóm
+    - Dev:
+      - Hoàn thành issue được giao
+      - Khi mà thực hiện chức năng mới thì tạo nhánh đứng từ nhánh dev, sau khi mà hoàn thành chức năng đó rồi thì push lên repo, sau đó thực hiện tạo một pull request lên cho Repo owner xử lý (không được nhánh dev)
+      - Tiến hành commit với nội dung theo yêu cầu:
+        - Dùng lệnh: git commit -s
+        - Dòng đầu tiên ghi ngắn gọn những gì đã làm trong commit này
+        - Xuống 2 dòng
+        - Tiếp theo ghi chi tiết những gì đã làm (nếu có)
+      - Trước khi push nhánh feature lên repo thì phải thực hiện rebase nhánh này dựa trên nhánh dev
